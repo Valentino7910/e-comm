@@ -1,0 +1,134 @@
+{
+    "phones": [
+        {
+            "id": 1,
+            "name": "Oppo Reno 5",
+            "price": 500,
+            "type": "phone",
+            "img": "Reno5.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Samsung S22",
+            "price": 1200,
+            "type": "phone",
+            "img": "S22.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Iphone 15",
+            "price": 1500,
+            "type": "phone",
+            "img": "Iphone15.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Iphone 13",
+            "price": 799,
+            "type": "phone",
+            "img": "Iphone13.jpeg"
+        },
+        {
+            "id": 5,
+            "name": "XiaoMi Mi 10",
+            "price": 899,
+            "type": "phone",
+            "img": "MI10.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Pocophone F4",
+            "price": 459,
+            "type": "phone",
+            "img": "Poco.jpg"
+        }
+    ],
+    "tablets": [
+        {
+            "id": 7,
+            "name": "Ipad Air 5",
+            "price": 850,
+            "type": "tablet",
+            "img": "IpadAir.jpeg"
+        },
+        {
+            "id": 8,
+            "name": "Xiao Mi Pad 6",
+            "price": 575,
+            "type": "tablet",
+            "img": "MiPad6.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Samsung Tab A9",
+            "price": 400,
+            "type": "tablet",
+            "img": "TabA9.jpeg"
+        },
+        {
+            "id": 10,
+            "name": "Ipad Pro M1",
+            "price": 1099,
+            "type": "tablet",
+            "img": "IpadPro.jpeg"
+        },
+        {
+            "id": 11,
+            "name": "Ipad 10th Gen",
+            "price": 599,
+            "type": "tablet",
+            "img": "Ipad10.jpeg"
+        },
+        {
+            "id": 12,
+            "name": "HuaWei MatePad 11",
+            "price": 690,
+            "type": "tablet",
+            "img": "MatePad.jpeg"
+        }
+    ],
+    "laptops": [
+        {
+            "id": 13,
+            "name": "Lenovo Ideapad 3",
+            "price": 1499,
+            "type": "laptop",
+            "img": "IdeaPad3.jpg"
+        },
+        {
+            "id": 14,
+            "name": "Hp Pavillion",
+            "price": 1599,
+            "type": "laptop",
+            "img": "HpPavilion.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Asus Vivobook",
+            "price": 1699,
+            "type": "laptop",
+            "img": "AsusVivo.png"
+        },
+        {
+            "id": 16,
+            "name": "Razer Blade 16",
+            "price": 3999,
+            "type": "laptop",
+            "img": "Razer.png"
+        },
+        {
+            "id": 17,
+            "name": "Laptop XiaoMi",
+            "price": 1899,
+            "type": "laptop",
+            "img": "XiaoMiLaptop.jpg"
+        },
+        {
+            "id": 18,
+            "name": "MSI Modern 14",
+            "price": 800,
+            "type": "laptop",
+            "img": "MSI.jpg"
+        }
+    ]
+}

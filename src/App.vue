@@ -1,19 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <NavBar></NavBar>
+  <router-view></router-view>
+  <FooterBar></FooterBar>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import FooterBar from './components/FooterBar.vue'
+import NavBar from './components/NavBar.vue'
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    FooterBar,
+    NavBar
   }
 }
 </script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -21,6 +22,18 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+nav {
+  padding: 30px;
+}
+
+nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+nav a.router-link-exact-active {
+  color: #42b983;
 }
 </style>
